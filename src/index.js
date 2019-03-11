@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 
-function App() {
+// Import Components
+import App from './components/App';
+import Poster from './components/Poster';
+
+function Test() {
     return (
-        <div>
-            Test
-        </div>
+        <fragment>
+            <Poster />
+        </fragment>
     )
 }
 
-ReactDOM.render(<App />, document.querySelector('#root'))
+ReactDOM.render(<Test />, document.querySelector('#root'))
