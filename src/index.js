@@ -6,12 +6,12 @@ import './css/index.css';
 import App from './components/App';
 import Poster from './components/Poster';
 
-function Test() {
+function Index() {
     return (
-        <fragment>
-            <Poster />
-        </fragment>
+        <>
+            <App />
+        </>
     )
 }
 
-ReactDOM.render(<Test />, document.querySelector('#root'))
+ReactDOM.render(<Index />, document.querySelector('#root'))
