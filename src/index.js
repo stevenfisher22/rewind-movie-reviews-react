@@ -13,6 +13,7 @@ import Home from './components/Home';
 import Seen from './components/Seen';
 import Watchlist from './components/Watchlist';
 import Search from './components/Search';
+import Details from './components/Details';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -22,6 +23,7 @@ ReactDOM.render(
                 <Route path="/seen" component={Seen}/>
                 <Route path="/watchlist" component={Watchlist}/>
                 <Route path="/search" component={Search}/>
+                <Route path="/details" component={Details}/>
             </Switch>
         </App>
     </BrowserRouter>
