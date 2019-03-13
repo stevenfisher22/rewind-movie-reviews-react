@@ -4,8 +4,26 @@
     width: 150px;
     height: 215px;
 }
-.poster img{
+
+/* .poster img{
     width: 150px;
     height: 215px;
+} */
+
+.container {
+    /* display: flex; */
+    /* margin: 10px; */
+    padding-top: 10px;
+}
+.col {
+    /* background-color: blue; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* margin: 0px; */
+}
+.row {
+    /* background-color: red; */
+    /* justify-content: center; */
+    padding: 15px;
 }
 

@@ -28,3 +28,5 @@ ReactDOM.render(
         </App>
     </BrowserRouter>
     , document.querySelector('#root'))
+
+// ReactDOM.render(<Home />, document.querySelector('#root'))

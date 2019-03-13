@@ -12,10 +12,29 @@ import Poster from '../components/Poster';
 
 function Home() {
     return (
-        <Container fluid>
-            <Row>
+        <Container >
+            {/* Row 1 */}
+            <Row >
+                <Col ><Poster /></Col>
+                <Col ><Poster /></Col>
                 <Col><Poster /></Col>
                 <Col><Poster /></Col>
+                <Col><Poster /></Col>
+                <Col><Poster /></Col>
+            </Row>
+            {/* Row 2 */}
+            <Row >
+                <Col ><Poster /></Col>
+                <Col ><Poster /></Col>
+                <Col><Poster /></Col>
+                <Col><Poster /></Col>
+                <Col><Poster /></Col>
+                <Col><Poster /></Col>
+            </Row>
+            {/* Row 3 */}
+            <Row >
+                <Col ><Poster /></Col>
+                <Col ><Poster /></Col>
                 <Col><Poster /></Col>
                 <Col><Poster /></Col>
                 <Col><Poster /></Col>
