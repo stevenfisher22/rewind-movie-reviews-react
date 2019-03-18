@@ -22,6 +22,7 @@ function NavBar() {
                 <Nav className="mr-auto">
                     <Nav.Link href="/seen" className="seen">SEEN</Nav.Link>
                     <Nav.Link href="/watchlist" className="watchlist">WATCHLIST</Nav.Link>
+                    {/* <Nav.Link href="/details" className="watchlist">DETAILS</Nav.Link> */}
                 </Nav>
             </Navbar>
         </>

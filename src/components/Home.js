@@ -4,10 +4,10 @@ import React from 'react';
 // React-Bootstrap Components
 import {Container, Row, Col} from 'react-bootstrap';
 
-// Import CSS
-import CSS from '../css/home.css';
+// CSS
+import '../css/home.css';
 
-// Import Components
+// Components
 import Poster from '../components/Poster';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
         <Container >
             {/* Row 1 */}
             <Row >
-                <Col ><Poster /></Col>
+                <Col ><Poster className="poster"/></Col>
                 <Col ><Poster /></Col>
                 <Col><Poster /></Col>
                 <Col><Poster /></Col>

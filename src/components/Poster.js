@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/poster.css';
+import'../css/poster.css';
 
 // function Poster() {
 //     return (

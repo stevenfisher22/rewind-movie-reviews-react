@@ -3,7 +3,16 @@
     width: 300px;
     height: 429px;
 } */
-img {
+/* img {
     width: 300px;
     height: 429px;
+} */
+
+.cap{
+    display: flex;
+    justify-content: center;
+    
+}
+.cap img {
+    
 }
